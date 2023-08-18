@@ -1,0 +1,64 @@
+/** Import Lepton stylesheet (Chrome) *****************************************/
+@import url("css/leptonChrome.css");
+
+
+/** Add your custom styles below **********************************************/
+
+/* Enable option to edit bookmark URLs under Add Bookmark (blue star) menu */
+/*
+ * #editBMPanel_locationRow {
+ *   visibility: visible !important;
+ * }
+*/
+
+/* Disable Email Image/Audio/Video and Set as Desktop Background context menu items */
+/*
+ * #context-sendimage,
+ * #context-sendvideo,
+ * #context-sendaudio,
+ * #context-setDesktopBackground {
+ *   display: none !important;
+ * }
+*/
+
+#TabsToolbar .titlebar-buttonbox.titlebar-color {
+  margin-left: 0px !important;
+}
+
+#titlebar {
+  visibility: collapse;
+}
+
+#sidebar-header {
+  display: none;
+}
+
+/* Make address bar and search bar transparent */
+#nav-bar
+{
+    background: none !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    color: #FFFFFF !important;
+    box-shadow: none !important;
+    border-style: transparent !important;
+}
+
+#urlbar-background
+{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    opacity: 0.9 !important;
+    box-shadow: inset 0px 0px 1px 0px #e3e3e3 !important;
+    border-radius: 3px 3px 3px 3px !important;
+}
+
+#urlbar:-moz-lwtheme, #navigator-toolbox #searchbar:-moz-lwtheme
+{
+    color: #FFFFFF !important;
+}
+
+#navigator-toolbox #searchbar:-moz-lwtheme
+{
+    background-color: hsla(0, 0%, 0%, 0) !important;
+}
